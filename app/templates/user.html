@@ -1,0 +1,20 @@
+{%  extends 'main.html' %}
+{% block content %}
+<table class="table-style">
+  <tr>
+    <th>Book Name</th>
+    <th>Author</th>
+    <th>Genre</th>
+    <th>Summary</th>
+  </tr>
+   {% for x in books %}
+  <tr>
+    <td>{{x.name}}</td>
+    <td>{{x.author}}</td>
+    <td>{{x.genre}}</td>
+    <td>{{x.summary}}</td>
+  </tr> 
+  {% endfor %} 
+</table> 
+
+{% endblock content %}

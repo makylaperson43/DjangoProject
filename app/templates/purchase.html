@@ -1,0 +1,26 @@
+{% extends 'main.html' %} {% load static %} {% block content %}
+
+<form  method="POST" action="">
+  
+  {% csrf_token %}
+  <div class="create_book_alignment">
+	<h1 class="align_book_word">Create A Book</h1>
+	<div class="align_form_purchase">
+		<p>Book Name {{form.name}}</p>
+	</div>
+	<div class="align_form_purchase">
+		<p>Author {{form.author}}</p>
+	</div>
+	<div class="align_form_purchase">
+		<p>Genre {{form.genre}}</p>
+	</div>
+	<div class="align_form_purchase">
+		<p>Summary{{form.summary}}</p>
+	</div>
+	<div class="confirm_btn">
+		<input type="submit" value="Confirm" />
+	</div>
+  </div>
+</form>
+
+{% endblock %}

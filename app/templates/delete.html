@@ -1,0 +1,23 @@
+{%  extends 'main.html' %}
+{% load static %}
+{% block content %}
+
+<br>
+<div>
+	<div>
+		<div class="deletion">
+			<h1 class="word_deletion">Confirmation</h1>
+			<p class="are_you_sure">Is {{item}} being deleted?</p>
+
+			<form  class="form_on_delete_page"action="{% url 'delete_purchase' item.id  %}" method="POST">
+				
+				{% csrf_token %}
+				<a class="link_underline_nav" href="{% url 'home' %}">Cancel</a>
+
+				<input type="submit" name="Confirm">
+			</form>
+		</div>
+	</div>
+</div>
+
+{% endblock %}

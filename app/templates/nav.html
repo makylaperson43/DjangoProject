@@ -1,0 +1,16 @@
+{% load static %}
+
+<header class="nav">
+  <div class="alignment-of-nav">
+      <p class="welcome_greeting">Welcome, {{request.user}}<p>
+      <p class="word_library">Library</p>
+      <a class="logout_btn" href="{% url 'logout' %}" >Logout</a>
+      {% if request.user.is_staff %}
+        <a class="link_underline_nav_dashboard" href="{% url 'home' %}">Dashboard</a>
+      {% endif %}
+      <a class="link_underline_nav" href="{% url 'create_purchase'%}">Create Book</a>
+  </div>
+
+
+
+</header>

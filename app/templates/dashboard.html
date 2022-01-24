@@ -1,0 +1,23 @@
+{% extends 'main.html' %} {% block content %}
+
+<table class="table-style">
+  <tr>
+    <th>Book Name</th>
+	<th>Author</th>
+    <th>Genre</th>
+    <th>Summary</th>
+    <th>Update</th>
+    <th>Delete</th>
+  </tr>
+  {% for x in books %}
+  <tr>
+    <td>{{x.name}}</td>
+	<td>{{x.author}}</td>
+    <td>{{x.genre}}</td>
+    <td>{{x.summary}}</td>
+    <td><a class="link_underline_nav" href="{% url 'update_purchase' x.id %}">Update</a></td>
+    <td><a class="link_underline_nav" href="{% url 'delete_purchase' x.id %}">Delete</a></td>
+  </tr>
+  {% endfor %}
+</table>
+{% endblock %} 

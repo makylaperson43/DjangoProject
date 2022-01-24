@@ -1,0 +1,270 @@
+.user_card_login {
+  width: 350px;
+  background: pink;
+  margin-top: 200px;
+  margin-bottom: auto;
+  padding: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  justify-content: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  margin-left: 480px;
+}
+
+.login_whole_page {
+  background: #d3d3d3;
+}
+
+.login_word {
+  color: #84a59d;
+  text-align: center;
+  font-size: 35px;
+}
+
+.align-text-box {
+  text-align: center;
+  margin: 10px;
+}
+
+.form_button {
+  margin-left: 150px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  display: flex;
+}
+
+.register_text_box {
+  text-align: center;
+  margin: 10px;
+}
+
+.message_form {
+  text-align: center;
+  font-size: 25px;
+}
+
+.background_register {
+  background: #d3d3d3;
+}
+
+.user_card_register {
+  width: 350px;
+  background: pink;
+  margin-top: 200px;
+  margin-bottom: auto;
+  padding: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  justify-content: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  margin-left: 480px;
+}
+
+.register_word {
+  color: #84a59d;
+  text-align: center;
+  font-size: 30px;
+}
+
+.register_button {
+  margin-left: 118px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  display: flex;
+}
+
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: lightblue;
+  position: sticky;
+  top: 0;
+  bottom: 0;
+  padding-bottom: -20px;
+  border-bottom: 5px solid black;
+}
+
+.align_book_word {
+  text-align: center;
+}
+
+.word_library{
+  font-size: 60px;
+  font-family: Snell Roundhand, cursive;
+  margin-left: 615px;
+  margin-top: -50px;
+  margin-bottom: 10px;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #d3d3d3;
+}
+
+.status_word_total {
+  font-size: 30px;
+  margin-left: 150px;
+  color: olive;
+}
+
+.status_word_purchase {
+  font-size: 30px;
+  text-align: center;
+  margin-top: -85px;
+  color: #84a59d;
+}
+
+.status_word_still_shopping {
+  font-size: 30px;
+  margin-top: -85px;
+  margin-left: 1150px;
+  color: #84a59d;
+}
+
+.welcome_greeting {
+  font-size: 25px;
+  font-style: oblique;
+  margin-left: 30px;
+}
+
+.link_underline_nav_dashboard{
+  text-decoration: none;
+  color: black;
+  transition: all 0.2s ease-in-out;
+  font-size: 20px;
+}
+
+.link_underline_nav_dashboard:hover{
+  font-size: 25px;
+}
+
+
+.link_underline_nav{
+  text-decoration: none;
+  color: black;
+  transition: all 0.2s ease-in-out;
+  font-size: 20px;
+}
+
+.link_underline_nav:hover{
+	font-size: 25px;
+}
+
+.logout_btn {
+  text-decoration: none;
+  color: black;
+  transition: all 0.2s ease-in-out;
+  font-size: 20px;
+  margin-left: 1150px;
+  margin-bottom: 0px;
+}
+
+.logout_btn:hover {
+  font-size: 25px;
+}
+
+
+
+.table-style {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  width: 100%;
+  margin-top: 100px;
+}
+
+td,
+th {
+  border: 1px solid black;
+  background-color: pink;
+  text-align: left;
+  padding: 8px;
+}
+tr:nth-child(even) {
+  background-color: black;
+}
+
+.create_book_alignment {
+  background: lightblue;
+  width: 350px;
+  margin-top: 150px;
+  margin-bottom: auto;
+  padding: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  justify-content: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  margin-left: 480px;
+}
+
+.align_form_purchase {
+  margin-left: 100px;
+  margin-top: 7px;
+  margin-bottom: 5px;
+}
+
+.confirm_btn {
+  display: inline;
+  margin-left: 145px;
+  padding-right: -200px;
+}
+
+.deletion {
+  background: lightblue;
+  width: 350px;
+  margin-top: 150px;
+  margin-bottom: auto;
+  padding: 50px;
+  box-shadow: 0 4px 8px 0 red, 0 6px 20px 0 red;
+  -webkit-box-shadow: 0 4px 8px 0 red, 0 6px 20px 0 red;
+  -moz-box-shadow: 0 4px 8px 0 red, 0 6px 20px 0 red;
+  justify-content: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  margin-left: 480px;
+}
+
+.word_deletion {
+  color: red;
+  text-align: center;
+}
+
+.are_you_sure {
+  text-align: center;
+}
+
+.form_on_delete_page {
+  text-align: center;
+}
+
+.align_words_in_nav {
+  margin-left: 100px;
+}
